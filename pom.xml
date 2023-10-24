@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>it.seda.risconet.WS_PROVVEDIMENTI_EXT</groupId>
   <artifactId>it.seda.risconet.WS_PROVVEDIMENTI_EXT</artifactId>
-  <version>1.0</version>
+  <version>1.1.0</version>
   <name>it.seda.risconet.WS_PROVVEDIMENTI_EXT</name>
   <description>it.seda.risconet.WS_PROVVEDIMENTI_EXT</description>
   
@@ -50,14 +50,6 @@
 			<groupId>org.apache.axis</groupId>
 			<artifactId>axis</artifactId>
 			<version>1.4</version>
-			<scope>compile</scope>
-		</dependency>
-
-
-		<dependency>
-			<groupId>com.seda.j2ee5</groupId>
-			<artifactId>com.seda.j2ee5</artifactId>
-			<version>1.0</version>
 			<scope>compile</scope>
 		</dependency>
 
