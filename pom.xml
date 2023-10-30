@@ -2,14 +2,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>it.seda.risconet.WS_PROVVEDIMENTI_EXT</groupId>
   <artifactId>it.seda.risconet.WS_PROVVEDIMENTI_EXT</artifactId>
-  <version>1.0</version>
+  <version>1.1.0</version>
   <name>it.seda.risconet.WS_PROVVEDIMENTI_EXT</name>
   <description>it.seda.risconet.WS_PROVVEDIMENTI_EXT</description>
   
    <parent>
       <groupId>it.maggioli.informatica.base.pom</groupId>
       <artifactId>pagonet-base</artifactId>
-      <version>1.0</version>
+      <version>1.2.0</version>
    </parent>
   
   <build>
@@ -34,32 +34,18 @@
     </plugins>
   </build>
   
-  
   <dependencies>
 
-		<!-- https://mvnrepository.com/artifact/javax.xml/jaxrpc-api -->
 		<dependency>
 			<groupId>javax.xml</groupId>
 			<artifactId>jaxrpc-api</artifactId>
-			<version>1.1</version>
-			<scope>compile</scope>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.apache.axis/axis -->
 		<dependency>
 			<groupId>org.apache.axis</groupId>
 			<artifactId>axis</artifactId>
-			<version>1.4</version>
-			<scope>compile</scope>
-		</dependency>
-
-
-		<dependency>
-			<groupId>com.seda.j2ee5</groupId>
-			<artifactId>com.seda.j2ee5</artifactId>
-			<version>1.0</version>
-			<scope>compile</scope>
 		</dependency>
 
 	</dependencies>
+
 </project>
