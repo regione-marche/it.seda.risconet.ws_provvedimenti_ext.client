@@ -16,7 +16,7 @@ public class WS_Provvedimenti_EXTSoapStub extends org.apache.axis.client.Stub im
     static org.apache.axis.description.OperationDesc [] _operations;
 
     static {
-        _operations = new org.apache.axis.description.OperationDesc[54];
+        _operations = new org.apache.axis.description.OperationDesc[56];
         _initOperationDesc1();
         _initOperationDesc2();
         _initOperationDesc3();
@@ -677,6 +677,30 @@ public class WS_Provvedimenti_EXTSoapStub extends org.apache.axis.client.Stub im
         oper.setStyle(org.apache.axis.constants.Style.WRAPPED);
         oper.setUse(org.apache.axis.constants.Use.LITERAL);
         _operations[53] = oper;
+        
+        oper = new org.apache.axis.description.OperationDesc();
+        oper.setName("Check_MRContribuente_MD");
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", "xml"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", ">>Check_MRContribuente_MD>xml"), it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDXml.class, false, false);
+        param.setOmittable(true);
+        oper.addParameter(param);
+        oper.setReturnType(new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", ">>Check_MRContribuente_MDResponse>Check_MRContribuente_MDResult"));
+        oper.setReturnClass(it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDResponseCheck_MRContribuente_MDResult.class);
+        oper.setReturnQName(new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", "Check_MRContribuente_MDResult"));
+        oper.setStyle(org.apache.axis.constants.Style.WRAPPED);
+        oper.setUse(org.apache.axis.constants.Use.LITERAL);
+        _operations[54] = oper;
+        
+        oper = new org.apache.axis.description.OperationDesc();
+        oper.setName("Test_Check_MRContribuente_MD");
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", "XML"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
+        param.setOmittable(true);
+        oper.addParameter(param);
+        oper.setReturnType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        oper.setReturnClass(java.lang.String.class);
+        oper.setReturnQName(new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", "Test_Check_MRContribuente_MDResult"));
+        oper.setStyle(org.apache.axis.constants.Style.WRAPPED);
+        oper.setUse(org.apache.axis.constants.Use.LITERAL);
+        _operations[55] = oper;
 
     }
 
@@ -772,6 +796,20 @@ public class WS_Provvedimenti_EXTSoapStub extends org.apache.axis.client.Stub im
             qName = new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", ">>Check_MRContribuente>xml");
             cachedSerQNames.add(qName);
             cls =  it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuenteXml.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+            
+            qName = new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", ">>Check_MRContribuente_MD>xml");
+            cachedSerQNames.add(qName);
+            cls = it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDXml.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", ">>Check_MRContribuente_MDResponse>Check_MRContribuente_MDResult");
+            cachedSerQNames.add(qName);
+            cls = it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDResponseCheck_MRContribuente_MDResult.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
@@ -1066,6 +1104,20 @@ public class WS_Provvedimenti_EXTSoapStub extends org.apache.axis.client.Stub im
             qName = new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", ">Check_MRContribuente");
             cachedSerQNames.add(qName);
             cls =  it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+            
+            qName = new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", ">Check_MRContribuente_MD");
+            cachedSerQNames.add(qName);
+            cls = it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MD.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", ">Check_MRContribuente_MDResponse");
+            cachedSerQNames.add(qName);
+            cls = it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDResponse.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
@@ -1415,6 +1467,20 @@ public class WS_Provvedimenti_EXTSoapStub extends org.apache.axis.client.Stub im
             qName = new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", ">Test_Check_MRContribuente");
             cachedSerQNames.add(qName);
             cls =  it.seda.risconet.ws_provvedimenti_ext.Test_Check_MRContribuente.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+            
+            qName = new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", ">Test_Check_MRContribuente_MD");
+            cachedSerQNames.add(qName);
+            cls = it.seda.risconet.ws_provvedimenti_ext.Test_Check_MRContribuente_MD.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", ">Test_Check_MRContribuente_MDResponse");
+            cachedSerQNames.add(qName);
+            cls = it.seda.risconet.ws_provvedimenti_ext.Test_Check_MRContribuente_MDResponse.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
@@ -3672,6 +3738,75 @@ public class WS_Provvedimenti_EXTSoapStub extends org.apache.axis.client.Stub im
                 return ( it.seda.risconet.ws_provvedimenti_ext.Test_ExecuteOperationResponseTest_ExecuteOperationResult) _resp;
             } catch (java.lang.Exception _exception) {
                 return ( it.seda.risconet.ws_provvedimenti_ext.Test_ExecuteOperationResponseTest_ExecuteOperationResult) org.apache.axis.utils.JavaUtils.convert(_resp,  it.seda.risconet.ws_provvedimenti_ext.Test_ExecuteOperationResponseTest_ExecuteOperationResult.class);
+            }
+        }
+  } catch (org.apache.axis.AxisFault axisFaultException) {
+  throw axisFaultException;
+}
+    }
+    
+    
+    public it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDResponseCheck_MRContribuente_MDResult check_MRContribuente_MD(it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDXml xml) throws java.rmi.RemoteException {
+        if (super.cachedEndpoint == null) {
+            throw new org.apache.axis.NoEndPointException();
+        }
+        org.apache.axis.client.Call _call = createCall();
+        _call.setOperation(_operations[54]);
+        _call.setUseSOAPAction(true);
+        _call.setSOAPActionURI("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Check_MRContribuente_MD");
+        _call.setEncodingStyle(null);
+        _call.setProperty(org.apache.axis.client.Call.SEND_TYPE_ATTR, Boolean.FALSE);
+        _call.setProperty(org.apache.axis.AxisEngine.PROP_DOMULTIREFS, Boolean.FALSE);
+        _call.setSOAPVersion(org.apache.axis.soap.SOAPConstants.SOAP11_CONSTANTS);
+        _call.setOperationName(new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", "Check_MRContribuente_MD"));
+
+        setRequestHeaders(_call);
+        setAttachments(_call);
+ try {        java.lang.Object _resp = _call.invoke(new java.lang.Object[] {xml});
+
+        if (_resp instanceof java.rmi.RemoteException) {
+            throw (java.rmi.RemoteException)_resp;
+        }
+        else {
+            extractAttachments(_call);
+            try {
+                return (it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDResponseCheck_MRContribuente_MDResult) _resp;
+            } catch (java.lang.Exception _exception) {
+                return (it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDResponseCheck_MRContribuente_MDResult) org.apache.axis.utils.JavaUtils.convert(_resp, it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDResponseCheck_MRContribuente_MDResult.class);
+            }
+        }
+  } catch (org.apache.axis.AxisFault axisFaultException) {
+  throw axisFaultException;
+}
+    }
+    
+    public java.lang.String test_Check_MRContribuente_MD(java.lang.String XML) throws java.rmi.RemoteException {
+        if (super.cachedEndpoint == null) {
+            throw new org.apache.axis.NoEndPointException();
+        }
+        org.apache.axis.client.Call _call = createCall();
+        _call.setOperation(_operations[55]);
+        _call.setUseSOAPAction(true);
+        _call.setSOAPActionURI("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_Check_MRContribuente_MD");
+        _call.setEncodingStyle(null);
+        _call.setProperty(org.apache.axis.client.Call.SEND_TYPE_ATTR, Boolean.FALSE);
+        _call.setProperty(org.apache.axis.AxisEngine.PROP_DOMULTIREFS, Boolean.FALSE);
+        _call.setSOAPVersion(org.apache.axis.soap.SOAPConstants.SOAP11_CONSTANTS);
+        _call.setOperationName(new javax.xml.namespace.QName("http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/", "Test_Check_MRContribuente_MD"));
+
+        setRequestHeaders(_call);
+        setAttachments(_call);
+ try {        java.lang.Object _resp = _call.invoke(new java.lang.Object[] {XML});
+
+        if (_resp instanceof java.rmi.RemoteException) {
+            throw (java.rmi.RemoteException)_resp;
+        }
+        else {
+            extractAttachments(_call);
+            try {
+                return (java.lang.String) _resp;
+            } catch (java.lang.Exception _exception) {
+                return (java.lang.String) org.apache.axis.utils.JavaUtils.convert(_resp, java.lang.String.class);
             }
         }
   } catch (org.apache.axis.AxisFault axisFaultException) {

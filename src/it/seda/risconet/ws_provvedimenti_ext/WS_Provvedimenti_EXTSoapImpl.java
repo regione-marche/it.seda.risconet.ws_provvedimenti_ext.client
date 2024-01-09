@@ -221,5 +221,11 @@ public class WS_Provvedimenti_EXTSoapImpl implements  it.seda.risconet.ws_provve
    public it.seda.risconet.ws_provvedimenti_ext.Test_ExecuteOperationResponseTest_ExecuteOperationResult test_ExecuteOperation(java.lang.String XML) throws java.rmi.RemoteException {
         return null;
     }
+   public it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDResponseCheck_MRContribuente_MDResult check_MRContribuente_MD(it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDXml xml) throws java.rmi.RemoteException {
+       return null;
+   }
+   public java.lang.String test_Check_MRContribuente_MD(java.lang.String XML) throws java.rmi.RemoteException {
+       return null;
+   }
 
 }

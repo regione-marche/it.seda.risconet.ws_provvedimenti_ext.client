@@ -20,17 +20,6 @@
       <parameter name="className" value="it.seda.risconet.ws_provvedimenti_ext.WS_Provvedimenti_EXTSoapImpl"/>
       <parameter name="wsdlPortType" value="WS_Provvedimenti_EXTSoap"/>
       <parameter name="typeMappingVersion" value="1.2"/>
-      <operation name="executeRequest_NEW" qname="operNS:ExecuteRequest_NEW" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:ExecuteRequest_NEWResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>ExecuteRequest_NEWResponse>ExecuteRequest_NEWResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/ExecuteRequest_NEW" >
-        <parameter qname="pns:xml" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:>>ExecuteRequest_NEW>xml" xmlns:tns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"/>
-      </operation>
-      <operation name="executeOperation" qname="operNS:ExecuteOperation" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:ExecuteOperationResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>ExecuteOperationResponse>ExecuteOperationResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/ExecuteOperation" >
-        <parameter qname="pns:xml" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:>>ExecuteOperation>xml" xmlns:tns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"/>
-      </operation>
-      <operation name="executeRequest" qname="operNS:ExecuteRequest" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:ExecuteRequestResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>ExecuteRequestResponse>ExecuteRequestResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/ExecuteRequest" >
-        <parameter qname="pns:xml" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:>>ExecuteRequest>xml" xmlns:tns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"/>
-      </operation>
-      <operation name="test" qname="operNS:test" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/test" >
-      </operation>
       <operation name="test_EP_NuovoProvvedimento_Discarico_Ext" qname="operNS:Test_EP_NuovoProvvedimento_Discarico_Ext" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Test_EP_NuovoProvvedimento_Discarico_ExtResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_EP_NuovoProvvedimento_Discarico_Ext" >
         <parameter qname="pns:XML" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
       </operation>
@@ -115,6 +104,9 @@
       <operation name="check_MRContribuente" qname="operNS:Check_MRContribuente" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Check_MRContribuenteResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>Check_MRContribuenteResponse>Check_MRContribuenteResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Check_MRContribuente" >
         <parameter qname="pns:xml" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:>>Check_MRContribuente>xml" xmlns:tns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"/>
       </operation>
+      <operation name="check_MRContribuente_MD" qname="operNS:Check_MRContribuente_MD" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Check_MRContribuente_MDResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>Check_MRContribuente_MDResponse>Check_MRContribuente_MDResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Check_MRContribuente_MD" >
+        <parameter qname="pns:xml" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:>>Check_MRContribuente_MD>xml" xmlns:tns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"/>
+      </operation>
       <operation name="cancellaProposta_MRContribuente" qname="operNS:CancellaProposta_MRContribuente" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:CancellaProposta_MRContribuenteResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>CancellaProposta_MRContribuenteResponse>CancellaProposta_MRContribuenteResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/CancellaProposta_MRContribuente" >
         <parameter qname="pns:xml" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:>>CancellaProposta_MRContribuente>xml" xmlns:tns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"/>
       </operation>
@@ -136,6 +128,9 @@
       <operation name="recuperaDettaglioProposte_MRContribuente" qname="operNS:RecuperaDettaglioProposte_MRContribuente" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:RecuperaDettaglioProposte_MRContribuenteResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>RecuperaDettaglioProposte_MRContribuenteResponse>RecuperaDettaglioProposte_MRContribuenteResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/RecuperaDettaglioProposte_MRContribuente" >
         <parameter qname="pns:xml" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:>>RecuperaDettaglioProposte_MRContribuente>xml" xmlns:tns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"/>
       </operation>
+      <operation name="test_RecuperaDettaglioProposte_MRContribuente_2" qname="operNS:Test_RecuperaDettaglioProposte_MRContribuente_2" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Test_RecuperaDettaglioProposte_MRContribuente_2Result" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_RecuperaDettaglioProposte_MRContribuente_2" >
+        <parameter qname="pns:XML" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
       <operation name="test_GetNDocForPartita" qname="operNS:Test_GetNDocForPartita" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Test_GetNDocForPartitaResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_GetNDocForPartita" >
         <parameter qname="pns:XML" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
       </operation>
@@ -148,11 +143,16 @@
       <operation name="test_Check_MRContribuente" qname="operNS:Test_Check_MRContribuente" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Test_Check_MRContribuenteResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_Check_MRContribuente" >
         <parameter qname="pns:XML" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
       </operation>
+      <operation name="test_Check_MRContribuente_MD" qname="operNS:Test_Check_MRContribuente_MD" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Test_Check_MRContribuente_MDResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_Check_MRContribuente_MD" >
+        <parameter qname="pns:XML" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
       <operation name="test_CancellaProposta_MRContribuente" qname="operNS:Test_CancellaProposta_MRContribuente" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Test_CancellaProposta_MRContribuenteResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_CancellaProposta_MRContribuente" >
         <parameter qname="pns:XML" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
       </operation>
       <operation name="test_UploadPropostaMR" qname="operNS:Test_UploadPropostaMR" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Test_UploadPropostaMRResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_UploadPropostaMR" >
         <parameter qname="pns:XML" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="test_UploadPropostaMR" qname="operNS:Test_UploadPropostaMR" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Test_UploadPropostaMRResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_UploadPropostaMR" >
       </operation>
       <operation name="test_RecuperoInfo_MRContribuente" qname="operNS:Test_RecuperoInfo_MRContribuente" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Test_RecuperoInfo_MRContribuenteResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_RecuperoInfo_MRContribuente" >
         <parameter qname="pns:XML" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
@@ -172,10 +172,24 @@
       <operation name="test_RecuperaDettaglioProposte_MRContribuente" qname="operNS:Test_RecuperaDettaglioProposte_MRContribuente" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Test_RecuperaDettaglioProposte_MRContribuenteResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_RecuperaDettaglioProposte_MRContribuente" >
         <parameter qname="pns:XML" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
       </operation>
+      <operation name="EP_NuovoProvvedimento_Revoca_Ext" qname="operNS:EP_NuovoProvvedimento_Revoca_Ext" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:EP_NuovoProvvedimento_Revoca_ExtResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>EP_NuovoProvvedimento_Revoca_ExtResponse>EP_NuovoProvvedimento_Revoca_ExtResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/EP_NuovoProvvedimento_Revoca_Ext" >
+        <parameter qname="pns:xml" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:>>EP_NuovoProvvedimento_Revoca_Ext>xml" xmlns:tns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"/>
+      </operation>
+      <operation name="executeOperation" qname="operNS:ExecuteOperation" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:ExecuteOperationResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>ExecuteOperationResponse>ExecuteOperationResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/ExecuteOperation" >
+        <parameter qname="pns:xml" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:>>ExecuteOperation>xml" xmlns:tns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"/>
+      </operation>
+      <operation name="test" qname="operNS:test" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/test" >
+      </operation>
+      <operation name="executeRequest" qname="operNS:ExecuteRequest" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:ExecuteRequestResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>ExecuteRequestResponse>ExecuteRequestResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/ExecuteRequest" >
+        <parameter qname="pns:xml" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:>>ExecuteRequest>xml" xmlns:tns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"/>
+      </operation>
       <operation name="test_ExecuteOperation" qname="operNS:Test_ExecuteOperation" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:Test_ExecuteOperationResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>Test_ExecuteOperationResponse>Test_ExecuteOperationResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/Test_ExecuteOperation" >
         <parameter qname="pns:XML" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
       </operation>
-      <parameter name="allowedMethods" value="archiviaPdfPianoAmmortamentoProvvedimento test_InsertFilesForMagRat test_DownloadPropostaProvvedimento test_EP_NuovoProvvedimento_Discarico_Ext test_RecuperaDettaglioProposte_MRContribuente test_ModificaProposta_MRContribuente test ottico_InsertFilesForMagRat cancellaProposta_MRContribuente downloadPropostaProvvedimento executeRequest_NEW testTEST_DownloadPropostaProvvedimento test_ExecuteOperation test_InsertFilesForMagRat_CRESET test_DownloadMagRat_CRESET calcolaProvvedimento ottico_UpdateFilesForMagRat test_RecuperoInfo_MRContribuente test_ListaProposte_MRContribuente test_GetNDocForPartita check_MRContribuente test_CalcolaProvvedimentoONE EP_NuovoProvvedimento_Discarico_Ext getNDocForPartita salvaProposta_MRContribuente test_EP_NuovoProvvedimento_RevocaSospensione_Ext test_UpdateFileForMagRat test_CancellaProposta_MRContribuente test_SalvaProposta_MRContribuenteP5 inserisciPropostaRateazione_MR getInfoProvvedimento test_CalcolaProvvedimento test_ArchiviaPianoAmmortamentoDiretto EP_NuovoProvvedimento_Sospensione_Ext executeRequest ottico_ListaMagRat test_ListaMagRatOne modificaProposta_MRContribuente test_Check_MRContribuente recuperaDettaglioProposte_MRContribuente test_ArchiviaPianoAmmortamentoDirettoXML test_DownloadMagRat test_UploadPropostaMR test_ListaMagRat test_SalvaProposta_MRContribuente test_EP_NuovoProvvedimento_Sospensione_Ext EP_NuovoProvvedimento_RevocaSospensione_Ext executeOperation ottico_DownloadMagRat recuperoInfo_MRContribuente test_InsertFilesForMagRatONE test_GetInfoProvvedimento test_DownloadMagRatOne listaProposte_MRContribuente"/>
+      <operation name="executeRequest_NEW" qname="operNS:ExecuteRequest_NEW" xmlns:operNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnQName="retNS:ExecuteRequest_NEWResult" xmlns:retNS="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" returnType="rtns:>>ExecuteRequest_NEWResponse>ExecuteRequest_NEWResult" xmlns:rtns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" soapAction="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/ExecuteRequest_NEW" >
+        <parameter qname="pns:xml" xmlns:pns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/" type="tns:>>ExecuteRequest_NEW>xml" xmlns:tns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"/>
+      </operation>
+      <parameter name="allowedMethods" value="test_RecuperaDettaglioProposte_MRContribuente_2 archiviaPdfPianoAmmortamentoProvvedimento test_InsertFilesForMagRat test_DownloadPropostaProvvedimento test_EP_NuovoProvvedimento_Discarico_Ext test_RecuperaDettaglioProposte_MRContribuente test_ModificaProposta_MRContribuente test ottico_InsertFilesForMagRat cancellaProposta_MRContribuente downloadPropostaProvvedimento executeRequest_NEW testTEST_DownloadPropostaProvvedimento test_ExecuteOperation test_InsertFilesForMagRat_CRESET EP_NuovoProvvedimento_Revoca_Ext test_DownloadMagRat_CRESET calcolaProvvedimento ottico_UpdateFilesForMagRat test_RecuperoInfo_MRContribuente test_ListaProposte_MRContribuente test_GetNDocForPartita test_UploadPropostaMR_OLD check_MRContribuente test_CalcolaProvvedimentoONE EP_NuovoProvvedimento_Discarico_Ext getNDocForPartita salvaProposta_MRContribuente test_EP_NuovoProvvedimento_RevocaSospensione_Ext check_MRContribuente_MD test_UpdateFileForMagRat test_CancellaProposta_MRContribuente test_SalvaProposta_MRContribuenteP5 inserisciPropostaRateazione_MR getInfoProvvedimento test_CalcolaProvvedimento test_ArchiviaPianoAmmortamentoDiretto EP_NuovoProvvedimento_Sospensione_Ext executeRequest ottico_ListaMagRat test_ListaMagRatOne modificaProposta_MRContribuente test_Check_MRContribuente recuperaDettaglioProposte_MRContribuente test_ArchiviaPianoAmmortamentoDirettoXML test_DownloadMagRat test_UploadPropostaMR test_ListaMagRat test_SalvaProposta_MRContribuente test_EP_NuovoProvvedimento_Sospensione_Ext EP_NuovoProvvedimento_RevocaSospensione_Ext executeOperation ottico_DownloadMagRat recuperoInfo_MRContribuente test_Check_MRContribuente_MD test_InsertFilesForMagRatONE test_GetInfoProvvedimento test_DownloadMagRatOne listaProposte_MRContribuente"/>
 
       <typeMapping
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
@@ -189,6 +203,14 @@
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
         qname="ns:>>EP_NuovoProvvedimento_Sospensione_ExtResponse>EP_NuovoProvvedimento_Sospensione_ExtResult"
         type="java:it.seda.risconet.ws_provvedimenti_ext.EP_NuovoProvvedimento_Sospensione_ExtResponseEP_NuovoProvvedimento_Sospensione_ExtResult"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
+        qname="ns:>Test_UploadPropostaMR_OLD"
+        type="java:it.seda.risconet.ws_provvedimenti_ext.Test_UploadPropostaMR_OLD"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
         deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
         encodingStyle=""
@@ -371,6 +393,14 @@
       />
       <typeMapping
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
+        qname="ns:>>EP_NuovoProvvedimento_Revoca_ExtResponse>EP_NuovoProvvedimento_Revoca_ExtResult"
+        type="java:it.seda.risconet.WS_PROVVEDIMENTI_EXT.EP_NuovoProvvedimento_Revoca_ExtResponseEP_NuovoProvvedimento_Revoca_ExtResult"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
         qname="ns:>Ottico_ListaMagRat"
         type="java:it.seda.risconet.ws_provvedimenti_ext.Ottico_ListaMagRat"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
@@ -453,6 +483,14 @@
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
         qname="ns:>>Check_MRContribuente>xml"
         type="java:it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuenteXml"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
+        qname="ns:>Test_Check_MRContribuente_MD"
+        type="java:it.seda.risconet.ws_provvedimenti_ext.Test_Check_MRContribuente_MD"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
         deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
         encodingStyle=""
@@ -707,6 +745,14 @@
       />
       <typeMapping
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
+        qname="ns:>EP_NuovoProvvedimento_Revoca_Ext"
+        type="java:it.seda.risconet.WS_PROVVEDIMENTI_EXT.EP_NuovoProvvedimento_Revoca_Ext"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
         qname="ns:>Test_DownloadMagRat_CRESETResponse"
         type="java:it.seda.risconet.ws_provvedimenti_ext.Test_DownloadMagRat_CRESETResponse"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
@@ -867,14 +913,6 @@
       />
       <typeMapping
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
-        qname="ns:>>ExecuteRequest_NEWResponse>ExecuteRequest_NEWResult"
-        type="java:it.seda.risconet.ws_provvedimenti_ext.ExecuteRequest_NEWResponseExecuteRequest_NEWResult"
-        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
-        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
-        encodingStyle=""
-      />
-      <typeMapping
-        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
         qname="ns:>>Ottico_ListaMagRat>imxl"
         type="java:it.seda.risconet.ws_provvedimenti_ext.Ottico_ListaMagRatImxl"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
@@ -925,6 +963,22 @@
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
         qname="ns:>Test_GetNDocForPartita"
         type="java:it.seda.risconet.ws_provvedimenti_ext.Test_GetNDocForPartita"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
+        qname="ns:>Check_MRContribuente_MDResponse"
+        type="java:it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDResponse"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
+        qname="ns:>Test_Check_MRContribuente_MDResponse"
+        type="java:it.seda.risconet.ws_provvedimenti_ext.Test_Check_MRContribuente_MDResponse"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
         deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
         encodingStyle=""
@@ -1083,14 +1137,6 @@
       />
       <typeMapping
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
-        qname="ns:>Test_EP_NuovoProvvedimento_Sospensione_ExtResponse"
-        type="java:it.seda.risconet.ws_provvedimenti_ext.Test_EP_NuovoProvvedimento_Sospensione_ExtResponse"
-        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
-        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
-        encodingStyle=""
-      />
-      <typeMapping
-        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
         qname="ns:>Test_CancellaProposta_MRContribuente"
         type="java:it.seda.risconet.ws_provvedimenti_ext.Test_CancellaProposta_MRContribuente"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
@@ -1203,6 +1249,14 @@
       />
       <typeMapping
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
+        qname="ns:>EP_NuovoProvvedimento_Revoca_ExtResponse"
+        type="java:it.seda.risconet.WS_PROVVEDIMENTI_EXT.EP_NuovoProvvedimento_Revoca_ExtResponse"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
         qname="ns:>ModificaProposta_MRContribuente"
         type="java:it.seda.risconet.ws_provvedimenti_ext.ModificaProposta_MRContribuente"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
@@ -1283,8 +1337,24 @@
       />
       <typeMapping
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
+        qname="ns:>>EP_NuovoProvvedimento_Revoca_Ext>xml"
+        type="java:it.seda.risconet.WS_PROVVEDIMENTI_EXT.EP_NuovoProvvedimento_Revoca_ExtXml"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
         qname="ns:>GetNDocForPartitaResponse"
         type="java:it.seda.risconet.ws_provvedimenti_ext.GetNDocForPartitaResponse"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
+        qname="ns:>>Check_MRContribuente_MD>xml"
+        type="java:it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDXml"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
         deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
         encodingStyle=""
@@ -1315,6 +1385,14 @@
       />
       <typeMapping
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
+        qname="ns:>ExecuteRequest_NEW"
+        type="java:it.seda.risconet.WS_PROVVEDIMENTI_EXT.ExecuteRequest_NEW"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
         qname="ns:>CancellaProposta_MRContribuente"
         type="java:it.seda.risconet.ws_provvedimenti_ext.CancellaProposta_MRContribuente"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
@@ -1325,6 +1403,14 @@
         xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
         qname="ns:>CalcolaProvvedimentoResponse"
         type="java:it.seda.risconet.ws_provvedimenti_ext.CalcolaProvvedimentoResponse"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://risconet.seda.it/WS_PROVVEDIMENTI_EXT/"
+        qname="ns:>Test_RecuperaDettaglioProposte_MRContribuente_2"
+        type="java:it.seda.risconet.ws_provvedimenti_ext.Test_RecuperaDettaglioProposte_MRContribuente_2"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
         deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
         encodingStyle=""

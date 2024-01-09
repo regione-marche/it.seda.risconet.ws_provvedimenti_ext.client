@@ -62,4 +62,7 @@ public interface WS_Provvedimenti_EXTSoap extends java.rmi.Remote {
     public java.lang.String test_ListaProposte_MRContribuente(java.lang.String XML) throws java.rmi.RemoteException;
     public java.lang.String test_RecuperaDettaglioProposte_MRContribuente(java.lang.String XML) throws java.rmi.RemoteException;
     public  it.seda.risconet.ws_provvedimenti_ext.Test_ExecuteOperationResponseTest_ExecuteOperationResult test_ExecuteOperation(java.lang.String XML) throws java.rmi.RemoteException;
+    //PAGONET-518 SB - inizio
+    public  it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDResponseCheck_MRContribuente_MDResult check_MRContribuente_MD(it.seda.risconet.ws_provvedimenti_ext.Check_MRContribuente_MDXml xml) throws java.rmi.RemoteException;
+    //PAGOENT-518 SB - fine
 }
